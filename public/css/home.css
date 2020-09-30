@@ -43,3 +43,9 @@ div.col.image:nth-child(odd){
 -moz-box-shadow: 5px -5px 5px 0px rgba(0,0,0,0.75);
 box-shadow: 5px -5px 5px 0px rgba(0,0,0,0.75);
 }
+
+iframe{
+	margin-top:65px;
+	width:75%;
+	height:900px;
+}
