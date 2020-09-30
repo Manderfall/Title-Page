@@ -40,10 +40,10 @@ const port = 3000;
 
 // Routes ------------------------------------------
 const indexRoutes = require("./routes/index");
-
+const certificatesRoutes = require("./routes/certificates")
 
 app.use(indexRoutes);
-
+app.use(certificatesRoutes);
 // START/LISTEN//		
 app.listen(port, () => { console.log(`Listening on port ${port}`); });
 	
