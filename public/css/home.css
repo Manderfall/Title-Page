@@ -11,7 +11,7 @@ img{
 }
 div.container-fluid{
 	display:flex;
-	margin-top:55px;
+	
 	padding:none;
 	width:100%;
 	flexwrap:wrap;
