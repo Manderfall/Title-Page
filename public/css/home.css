@@ -1,7 +1,45 @@
 body,html{
 	height:100%;
+	max-width:100%;
+	background:#9EBC9F;
 }
 img{
 	width:500px;
 	height:500px;
+	justify-content:center;
+	
+}
+div.container-fluid{
+	display:flex;
+	margin-top:55px;
+	padding:none;
+	width:100%;
+	flexwrap:wrap;
+	flex-direction:column;
+}
+
+div.row{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	
+}
+div.col.col-12{	
+	
+
+	
+}
+div.col.image{
+	background:#D3B88C;
+}
+div.col.image:nth-child(even){
+-webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+div.col.image:nth-child(odd){
+	-webkit-box-shadow: 5px -5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px -5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 5px -5px 5px 0px rgba(0,0,0,0.75);
 }
