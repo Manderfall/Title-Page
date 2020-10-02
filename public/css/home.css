@@ -16,6 +16,8 @@ div.container-fluid{
 	width:100%;
 	flexwrap:wrap;
 	flex-direction:column;
+	flex:1;
+
 }
 
 div.row{
@@ -48,4 +50,16 @@ iframe{
 	margin-top:75px;
 	width:650px;
 	height:850px;
+}
+p{
+	margin-left:100px;
+	margin-right:100px;
+}
+/* for small mobile devices to center. */
+@media screen and (max-width: 425px) {
+  div.container-fluid {
+  width: 100%;
+  display: flex;
+    justify-content: center;
+  flex-wrap: wrap;
 }
