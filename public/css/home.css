@@ -55,6 +55,9 @@ p{
 	margin-left:100px;
 	margin-right:100px;
 }
+h1.contact-title{
+	margin-top:50px;
+}
 /* for small mobile devices to center. */
 @media screen and (max-width: 425px) {
   div.container-fluid {
